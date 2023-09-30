@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frame {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+}
+.child {
+  margin-left: 47%;
+}
+.hide {
+  text-decoration: none;
+  padding: 10px;
+  background-color: aqua;
+}
+.show {
+  margin-left: 20px;
+  background-color: aqua;
+  text-decoration: none;
+  padding: 10px;
+}

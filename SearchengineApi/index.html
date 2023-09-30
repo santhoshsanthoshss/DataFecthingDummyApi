@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Searching Api</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      name="search"
+      value=""
+      placeholder="Search Products"
+      id="searchproduct"
+    />
+    <button onclick="getproducts()">Search</button>
+    <table border cellpadding="20px">
+      <thead>
+        <tr>
+          <th>SNO</th>
+          <th>SNAME</th>
+          <th>PRICE</th>
+          <th>COLOR</th>
+          <th>IMAGE</th>
+        </tr>
+      </thead>
+      <tbody id="studentDetails"></tbody>
+    </table>
+    <script src="../SearchengineApi/search.js"></script>
+  </body>
+</html>
